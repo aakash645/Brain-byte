@@ -116,6 +116,7 @@ body {
   width: 15rem;
   border-radius: 1rem;
   box-shadow: 0.3rem 0.3rem 0.5rem rgb(36, 35, 35);
+  z-index:1;
 }
 .logo_1 {
   background-image: url(/Brain-byte/Images/logo.jpg);
