@@ -48,7 +48,6 @@ body {
   border: 1.5px solid rgb(0, 0, 0);
 }
 
-
 .navbar ul {
   display: flex;
   list-style: none;
@@ -217,7 +216,7 @@ body {
   cursor: pointer;
 }
 
-/* Search Bar CSS  */
+ /* Search Bar CSS */ 
 .searching {
   display: flex;
   justify-content: center;
@@ -247,8 +246,7 @@ body {
   align-items: center;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-}
-
+} 
 
 /* slider  */
 slider {
@@ -347,23 +345,19 @@ slider {
   /* transform: translateY(350px); */
   margin-left: 5%;
   margin-right: 5%;
-  padding: 45px; 
+  padding: 45px;
   min-height: 25rem;
 }
-.left{
-  width :50%;
-
+.left {
+  width: 50%;
 }
-.right{
+.right {
   width: 50%;
   border-radius: 2rem;
-  background-image: url(/Brain-byte/Images/Career\ Banao\ Bright\ With\ Brain\ Bytes.png);
+  background-image: url(/Images/Career\ Banao\ Bright\ With\ Brain\ Bytes.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  
-
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -408,5 +402,5 @@ h1 {
 
 .btn-start:hover {
   border: solid 3px #ff9900;
-   color: black;
+  color: black;
 }

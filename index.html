@@ -4,8 +4,8 @@
     <title>Brain Bytes</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -14,7 +14,7 @@
         <div class="logo"></div>
         <ul class="Navigation-items">
           <li>
-            <a href="#" id="home">Home</a>
+            <a href="/index.html" id="home">Home</a>
           </li>
           <li>
             <a href="#" id="e-material"
@@ -44,7 +44,11 @@
           </li>
           <li><a href="# " id="blog">Blog</a></li>
           <li><a href="#" id="doubt">Doubts</a></li>
-          <li><a href="/Brain-byte/About Us/About-Us.html" id="about-us">About Us</a></li>
+          <li>
+            <a href="/Brain-byte/About Us/About-Us.html" id="about-us"
+              >About Us</a
+            >
+          </li>
         </ul>
       </div>
 
@@ -58,7 +62,7 @@
       <div class="hidden" id="menu-2">
         <ul class="Navigation-items" id="secondary_nav">
           <li>
-            <a href="#" >Home</a>
+            <a href="/index.html">Home</a>
           </li>
           <li>
             <a href="#" id="e-material-items"
@@ -86,10 +90,16 @@
               </ul>
             </div>
           </li>
-          <li><a href="#" >Blog</a></li>
-          <li><a href="#" >Doubts</a></li>
-          <li><a href="/Brain-byte/About Us/About-Us.html" >About Us</a></li>
+
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Doubts</a></li>
+          <li><a href="/Brain-byte/About Us/About-Us.html">About Us</a></li>
         </ul>
+      </div>
+      <!-- search bar  -->
+      <div class="searching">
+        <input type="text" placeholder="Search.." class="search-bar" />
+        <button><ion-icon name="search-outline"></ion-icon></button>
       </div>
       <button class="btn">Login&nbsp;/&nbsp;Register</button>
     </nav>
@@ -125,50 +135,54 @@
           <button class="btn-start">Get Started</button>
         </div>
         <!--right-part-->
-        <div class="right">
-          
+        <div class="right"></div>
+      </div>
+    </div>
+
+    <!--  courses page -->
+
+    <div class="section">
+      <div class="top-courses">
+        <div class="top10">
+          <h5 style="font-family: 'Source Sans Pro', sans-serif">
+            Top-Courses
+          </h5>
+          <a href="" class="top-courses_content">web development</a><br />
+          <a href="" class="top-courses_content">python programming</a><br />
+          <a href="" class="top-courses_content">java</a><br />
+        </div>
+      </div>
+      <div class="top-courses">
+        <div class="top10">
+          <h5 style="font-family: 'Source Sans Pro', sans-serif">
+            Quizes/Exercises
+          </h5>
+          <a href="" class="top-courses_content">HTML Reference</a><br />
+          <a href="" class="top-courses_content">HTML Reference</a><br />
+          <a href="" class="top-courses_content">HTML Reference</a><br />
+        </div>
+      </div>
+      <div class="top-courses">
+        <div class="top10">
+          <h5 style="font-family: 'Source Sans Pro', sans-serif">
+            NCRET Books
+          </h5>
+          <a href="" class="top-courses_content">HTML Reference</a><br />
+          <a href="" class="top-courses_content">HTML Reference</a><br />
+          <a href="" class="top-courses_content">HTML Reference</a><br />
+        </div>
+      </div>
+      <div class="top-courses">
+        <div class="top10">
+          <h5 style="font-family: 'Source Sans Pro', sans-serif">
+            Notes/Video
+          </h5>
+          <a href="" class="top-courses_content">HTML Reference</a><br />
+          <a href="" class="top-courses_content">HTML Reference</a><br />
+          <a href="" class="top-courses_content">HTML Reference</a><br />
         </div>
       </div>
     </div>
-
-<!--  courses page -->
-
-        
-  <div class="section">
-    <div class="top-courses">
-      <div class="top10">
-        <h5 style="font-family: 'Source Sans Pro', sans-serif;">Top-Courses</h5>
-        <a href=""class="top-courses_content">web development</a><br>
-        <a href=""class="top-courses_content">python programming</a><br>
-        <a href=""class="top-courses_content">java</a><br>
-      </div>
-    </div>
-    <div class="top-courses">
-      <div class="top10">
-        <h5 style="font-family: 'Source Sans Pro', sans-serif;">Quizes/Exercises</h5>
-        <a href="" class="top-courses_content">HTML Reference</a><br>
-        <a href="" class="top-courses_content">HTML Reference</a><br>
-        <a href="" class="top-courses_content">HTML Reference</a><br>
-      </div>
-    </div>
-    <div class="top-courses">
-      <div class="top10">
-        <h5 style="font-family: 'Source Sans Pro', sans-serif;">NCRET Books</h5>
-        <a href="" class="top-courses_content">HTML Reference</a><br>
-        <a href="" class="top-courses_content">HTML Reference</a><br>
-        <a href="" class="top-courses_content">HTML Reference</a><br>
-
-      </div>
-    </div>
-    <div class="top-courses">
-      <div class="top10">
-        <h5 style="font-family: 'Source Sans Pro', sans-serif;">Notes/Video</h5>
-        <a href="" class="top-courses_content">HTML Reference</a><br>
-        <a href="" class="top-courses_content">HTML Reference</a><br>
-        <a href="" class="top-courses_content">HTML Reference</a><br>
-      </div>
-    </div>
-</div>
 
     <!-- Script for icons  -->
     <script src="script.js"></script>
