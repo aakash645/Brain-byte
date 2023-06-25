@@ -27,3 +27,6 @@ function changeSlide(n) {
 }
 
 //Slider script ends here
+
+// Login popup starts here 
+
