@@ -33,7 +33,7 @@ body {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
-  background-image: url(/Brain-byte/About\ Us/images/logo.jpg);
+  background-image: url(/About\ Us/images/logo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border: 1.5px solid rgb(0, 0, 0);
@@ -280,12 +280,14 @@ a:focus {
   align-items: center;
 }
 .picture {
-  width: 40%;
-  border-radius: 50%;
+  width: 50vh;
+  height: 50vh;
   background-image: url(https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 50%;
+  align-self: center;
 }
 .content-item {
   width: 60%;
@@ -313,7 +315,12 @@ a:focus {
 .button:hover {
   background-color: rgb(250, 250, 94);
 }
-
+.heading {
+  width: 100%;
+  height: fit-content;
+  font-size: 3rem;
+  text-align: center;
+}
 /* Slider starts here  */
 
 .slider {
