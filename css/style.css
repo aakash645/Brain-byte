@@ -7,23 +7,28 @@
 }
 body {
   font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
   max-height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: rgb(15, 15, 15);
+  background-color: rgb(15, 15, 15);
 }
 
 .main-menu {
   display: flex;
   width: fit-content;
+  width: fit-content;
   align-items: center;
 }
 .navbar {
   width: 100vw;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
+  position: fixed;
   position: fixed;
   padding: 0.6rem;
   align-items: center;
@@ -37,11 +42,12 @@ body {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
-  background-image: url(/Brain-byte/Images/logo.jpg);
+  background-image: url(/Images/logo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border: 1.5px solid rgb(0, 0, 0);
 }
+
 
 .navbar ul {
   display: flex;
@@ -81,6 +87,7 @@ body {
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0.5rem rgb(36, 35, 35);
+  z-index: 1;
   z-index: 1;
 }
 
@@ -159,6 +166,8 @@ body {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.541);
   backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.541);
+  backdrop-filter: blur(20px);
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-bottom-left-radius: 0.5rem;
@@ -208,9 +217,43 @@ body {
   cursor: pointer;
 }
 
+/* Search Bar CSS  */
+.searching {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+.search-bar {
+  height: 2rem;
+  width: 10rem;
+  border: 2px solid rgb(255 199 0);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+  font-weight: 600;
+  font-style: italic;
+}
+.searching button {
+  height: 2rem;
+  width: 2.5rem;
+  background-color: rgb(15, 15, 15);
+  outline: none;
+  border: 2px solid rgb(255 199 0);
+  color: rgb(255 199 0);
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
 /* slider  */
 slider {
   width: 100%;
+  margin-top: 15rem;
 }
 .slider {
   position: relative;
